@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* menu */
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden; /*pesquisar*/
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: dimgray;
+    padding: 15px;
+}
+
+li{
+    text-transform: uppercase;
+    color:dimgrey;
+}
+
+li :hover{
+    background-color: #39AAE1;
+    color: white;
+}
+
+/* banner */
+
+.banner{
+    background-image:url(./img/img1.jpg) ;
+    height: 670px;
+    display: flex;
+    background-size: cover; /*hack*/
+    background-position: center; /*hack*/
+}
+
+.column{
+  flex-direction:column ;
+
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 0px #555;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
