@@ -51,6 +51,11 @@ li :hover{
     color: white;
 }
 
+
+
+
+
+
 /* banner */
 
 .banner{
@@ -59,11 +64,20 @@ li :hover{
     display: flex;
     background-size: cover; /*hack*/
     background-position: center; /*hack*/
+ 
 }
 
 .column{
-  flex-direction:column ;
+  flex-direction:column; 
+  margin: auto;  
+}
 
+.text{
+    width: 990px;
+    height: 460px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -71,10 +85,69 @@ h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0px 1px 0px #555;
+    max-width: 350px;
 }
 
 h2{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 350px;
+}
+
+.banners{
+    display: flex;
+    height: 210px;
+}
+
+.banner1, .banner2, .banner3{
+    padding-top: 16px;
+    padding-left: 18px;
+    flex: 1;
+    color: white;
+}
+
+.banner1, .banner2{
+    line-height: 40px;
+}
+
+.banner1{
+    background-color: #39AAE1;
+}
+
+.banner2{
+    background-color: #0079C7;
+}
+
+.banner3{
+    background-color: #2B4C99;
+    line-height: 30px;
+    padding-right: 15px;
+}
+
+.banner_title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner_desc{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banners a {
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+}
+
+.banner_day{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #5570AD ;
+}
+
+.banner3 .banner_title{
+    padding-bottom: 10px;
 }
 
