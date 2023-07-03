@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediciCenter</title>
     <link rel="stylesheet" href="style_MC.css">
+    <script>
+        window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'none'){
+                document.querySelector(".menu nav ul").style.display = 'flex';
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'none';
+            }
+        })};
+    </script>
 </head>
 <body>
 
@@ -164,6 +174,8 @@
                     <div class="caixa"></div>
                     <div class="caixa"></div>
                     <div class="caixa"></div>
+                    <div class="caixa"></div>
+                    <div class="caixa"></div>
                 </div>
                 <div class="widget">
                     <div class="widget_title">Make an appointment</div>
@@ -185,6 +197,9 @@
             </aside>
         </div>
     </section>
+
+<!-- Rodapé -->
+
     <footer>
         <div class="container">
             <div class="footer_menu">
